@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Calculator</title>
+</head>
+<body class="main">
+    <div class="container">
+        <div class="author">
+            Apple calculator by <span>Mayzer7</span>
+        </div>
+
+        <input id="display" class="display"></input>
+    
+        <div class="calculator">
+            <div class="line">
+                <button onclick = "clearDisplay('AC')"class="divide change-number-style-1">
+                    AC
+                </button>
+                
+                <button onclick = "appendToDisplay('/')"class="divide">
+                    ÷
+                </button>
+            </div>
+
+            <div class="line">
+                <button onclick = "appendToDisplay('7')" class="divide divide-number-one">
+                    7
+                </button>
+
+                <button onclick = "appendToDisplay('8')" class="divide divide-number-two">
+                    8
+                </button>
+
+                <button onclick = "appendToDisplay('9')" class="divide divide-number-three">
+                    9
+                </button>
+
+                <button onclick = "appendToDisplay('*')" class="divide divide-operation">
+                    ×
+                </button>
+            </div>
+
+            <div class="line">
+                <button onclick = "appendToDisplay('4')" class="divide divide-number-one">
+                    4
+                </button>
+
+                <button onclick = "appendToDisplay('5')" class="divide divide-number-two">
+                    5
+                </button>
+
+                <button onclick = "appendToDisplay('6')" class="divide divide-number-three">
+                    6
+                </button>
+
+                <button onclick = "appendToDisplay('-')" class="divide divide-operation">
+                    -
+                </button>
+            </div>
+
+            <div class="line">
+                <button onclick = "appendToDisplay('1')" class="divide divide-number-one fix-number">
+                    1
+                </button>
+
+                <button onclick = "appendToDisplay('2')" class="divide divide-number-two">
+                    2
+                </button>
+
+                <button onclick = "appendToDisplay('3')" class="divide divide-number-three">
+                    3
+                </button>
+
+                <button onclick = "appendToDisplay('+')" class="divide divide-operation">
+                    +
+                </button>
+            </div>
+
+            <div class="line">
+                <button onclick = "appendToDisplay('0')" class="divide divide-number-one change-number-style-2">
+                    0
+                </button>
+
+                <button onclick = "appendToDisplay('.')" class="divide divide-number-two fix-number-2">
+                    .
+                </button>
+
+                <button onclick = "calculate('=')" class="divide divide-operation">
+                    =
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

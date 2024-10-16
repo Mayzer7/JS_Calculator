@@ -1,0 +1,105 @@
+html, body {
+    overflow: hidden; /* Отключает прокрутку */
+}
+
+.main{
+    background-color: #0a1e39;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.author{
+    margin-top: 200px;
+    margin-bottom: 50px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.author span{
+    color: orange;
+}
+
+.display{
+    background-color: black;
+    border: none;
+    margin-left: 100px;
+    padding-top: 5px;
+    width: 251px;
+    height: 70px;
+    text-align: end;
+    font-size: 50px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.calculator{
+    background-color: black;
+    margin-left: 100px;
+    width: 255px;
+    height: 335px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+.line{
+    display: flex;
+    justify-content: end;
+}
+
+.divide{
+    margin-top: 5px;
+    margin-right: 2px;
+    color: white;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    padding: 15px 23px;
+    border: none;
+    border-radius: 50px;
+    background-color: orange
+}
+
+.divide-number-one{
+    margin-right: 5px;
+    background-color: grey;
+}
+
+.divide-number-two{
+    margin-right: 5px;
+    background-color: grey;
+}
+
+.divide-number-three{
+    margin-right: 5px;
+    background-color: grey;
+}
+
+.fix-number{
+    padding: 15px 25px;
+}
+
+.fix-number-2{
+    padding: 15px 27px;
+}
+
+
+.change-number-style-1{
+    padding-right: 78px;
+    padding-left: 78px;
+    margin-right: 3px;
+}
+
+.change-number-style-2{
+    padding-right: 53px;
+    padding-left: 53px;
+}
+
+.line button:active{
+    background-color: rgba(255, 255, 255, 0.2);
+}
